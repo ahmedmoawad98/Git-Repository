@@ -1,0 +1,28 @@
+git config --global user.name "Ahmed Moawad"
+git config --global user.email "ahmedmoawad9823@gmail.com"
+cd desktop
+ls 
+cd usr
+cd..
+cd c 
+cd Users 
+cd ahmed 
+mkdir GitHomeWork 
+~
+cd ..
+~
+cd ahmed
+rm -rf .git
+cd GitHomework
+git init
+git clone "http://gtihub.com/ahmedmoawad98/Git-Repository.git" 
+git clone http://gtihub.com/ahmedmoawad98/Git-Repository.git
+cd Git-Repository
+touch mytext
+git add .
+git status 
+commit -m "added text"
+git pull origin master 
+git fetch --all 
+git pull --allow-unrelated-histories 
+gut push origin master 
